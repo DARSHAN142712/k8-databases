@@ -81,7 +81,7 @@ spec:
     kind: Deployment
     name: shipping
   minReplicas: 1
-  maxReplicas: 1
+  maxReplicas: 10 
   metrics:
   - type: Resource
     resource:
